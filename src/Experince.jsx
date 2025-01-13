@@ -24,7 +24,7 @@ export default function Experience() {
                 variant="body2"
                 sx={{ color: 'text.primary', display: 'inline' }}
               >
-                Meltwater
+                Meltwater 
               </Typography>
               {" — Lorem"}
             </React.Fragment>
