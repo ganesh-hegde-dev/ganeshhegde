@@ -10,7 +10,9 @@ import Typography from '@mui/material/Typography';
 export default function Experience() {
     const companyUrl = "https://yt3.googleusercontent.com/VVcy8yZ3mfZqd6KLlgCGYXIiiO6a3GzCUMHrGHNu6NFf1dVoU27Hexd8oi9TPbMvhO9ozajnYQ=s900-c-k-c0x00ffffff-no-rj"
   return (
-    <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+     
+    <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }} className='shadow'>
+      <h4 className='exp'> Experince</h4>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src={companyUrl} />

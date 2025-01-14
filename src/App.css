@@ -1,0 +1,11 @@
+.bg {
+    background-color: rgb(255, 255, 255);
+}
+.experince{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+     height: 190px;
+     gap: 2rem;
+}
