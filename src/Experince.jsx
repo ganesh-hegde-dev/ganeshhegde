@@ -11,8 +11,7 @@ export default function Experience() {
     const companyUrl = "https://yt3.googleusercontent.com/VVcy8yZ3mfZqd6KLlgCGYXIiiO6a3GzCUMHrGHNu6NFf1dVoU27Hexd8oi9TPbMvhO9ozajnYQ=s900-c-k-c0x00ffffff-no-rj"
   return (
      
-    <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }} className='shadow'>
-      <h4 className='exp'> Experince</h4>
+    <List  className='shadow'>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src={companyUrl} />
@@ -28,7 +27,7 @@ export default function Experience() {
               >
                 Meltwater 
               </Typography>
-              {" — Lorem"}
+              {" — Sep 2023 to Present"}
             </React.Fragment>
           }
         />
@@ -49,7 +48,7 @@ export default function Experience() {
               >
                 Meltwater
               </Typography>
-              {" — Lorem"}
+              {" — Sep 2022 to Sep 2023"}
             </React.Fragment>
           }
         />
@@ -70,7 +69,7 @@ export default function Experience() {
               >
                 Meltwater
               </Typography>
-              {" — Lorem"}
+              {" — March 2022 to Sep 2022"}
             </React.Fragment>
           }
         />

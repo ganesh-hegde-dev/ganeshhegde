@@ -34,10 +34,18 @@ function App() {
   return (<>
   <div className='bg'>
   <Banner/>
-  <div className='experince'>
+  <h2 className='tech-heading'>Tech Stack</h2>
+  <div className='tech'>
     {skills.map((skill)=>{ return <Skill key={skill.skillName} {...skill}/>} )}
   </div>
+ 
+  <div className='experience'>
+  <h2 className='exp-heading p3'>Experience</h2>
+    <Experience/>
   </div>
+  </div>
+
+ 
 </>)
 }
 

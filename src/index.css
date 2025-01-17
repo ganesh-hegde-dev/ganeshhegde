@@ -62,7 +62,10 @@
 .shadow {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
 }
 
 .exp {
@@ -96,6 +99,12 @@
     display: block;
     margin: 10px auto; /* Center the button */
   }
+  .shadow {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-bottom: 12rem;
+  }
 }
 
 /* Tablet Styles */
@@ -116,4 +125,11 @@
   .banner p {
     font-size: 1.4rem; 
   }/* Medium paragraph font size */
+
+  .shadow {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-bottom: 12rem;
+  }
 }
