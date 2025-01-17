@@ -101,7 +101,12 @@
 /* Tablet Styles */
 @media (max-width: 1024px) {
   .banner {
-    height: 13vh; /* Keep the original height for tablets */
+    /* height: 13vh; */
+    background-image: url('./assets/bg-mobile.png'); 
+    height: 80vh; /* Takes up half the screen height */
+    background-size: cover; /* Cover for larger screens */
+
+
   }
 
   .banner h1 {
@@ -109,10 +114,6 @@
   }
 
   .banner p {
-    font-size: 1.4rem; /* Medium paragraph font size */
-  }
-
-  .hire-me-button {
-    padding: 10px 20px; /* Maintain padding for tablets */
-  }
+    font-size: 1.4rem; 
+  }/* Medium paragraph font size */
 }
