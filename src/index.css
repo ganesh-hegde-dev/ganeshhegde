@@ -1,7 +1,8 @@
+/* Base Styles */
 .banner {
   height: 50vh; /* Takes up half the screen height */
-  background-image: url('./assets/banner-full.png');/*eplace with your background image URL */
-  background-size: cover;
+  background-image: url('./assets/banner-full.png'); /* Replace with your background image URL */
+  background-size: cover; /* Cover for larger screens */
   background-position: center;
   display: flex;
   justify-content: flex-start; /* Align content to the left */
@@ -51,16 +52,67 @@
 .hire-me-button:hover {
   background-color: #0056b3;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.shadow{
+
+.shadow {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 5px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .exp {
   text-align: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .banner {
+    height: 20vh; /* Adjust height for mobile */
+    background-size: contain; /* Use contain to compress the image and make it fit */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+
+  .banner h1 {
+    font-size: 2.2rem; /* Smaller heading font size */
+    text-align: center; /* Center the heading */
+  }
+
+  .banner p {
+    font-size: 1.2rem; /* Smaller paragraph font size */
+    text-align: center; /* Center the text */
+    margin: 5px 0;
+  }
+
+  .hire-me-button {
+    padding: 8px 15px; /* Adjust button padding */
+    font-size: 1rem; /* Smaller button font size */
+    display: block;
+    margin: 10px auto; /* Center the button */
+  }
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .banner {
+    height: 13vh; /* Keep the original height for tablets */
+  }
+
+  .banner h1 {
+    font-size: 2.5rem; /* Medium heading font size */
+  }
+
+  .banner p {
+    font-size: 1.4rem; /* Medium paragraph font size */
+  }
+
+  .hire-me-button {
+    padding: 10px 20px; /* Maintain padding for tablets */
+  }
 }
